@@ -47,7 +47,7 @@ PORTFOLIO-RUAN-LIMA/
 
 - **public/**: Contém arquivos públicos, como imagens e `index.html`.
 - **src/**: Contém os componentes React, páginas e a lógica principal da aplicação.
-- **components/**: Seções principais, como Home, Projetos e Contato.
+- **components/**: Contém as seções principais, como Home, Projetos e Contato.
 
   
 ## 🖥️ Como Executar o Projeto
