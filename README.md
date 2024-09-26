@@ -14,11 +14,7 @@ O portfólio foi criado com o objetivo de demonstrar minha trajetória como dese
 - **React**: Criação de componentes dinâmicos e reativos.
 - **Angular**: Utilizado em alguns projetos para a construção de interfaces.
 - **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
-- **MySQL**: Sistema de gerenciamento de banco de dados relacional.
-- **Git**: Controle de versão para gerenciamento de código.
-- **Sass**: Pré-processador CSS que facilita a estilização.
-- **Bootstrap**: Framework para desenvolvimento de interfaces responsivas e móveis.
-
+  
 ## 🎨 Design
 
 O design do portfólio é clean e responsivo, pensado para uma ótima experiência do usuário em diferentes dispositivos, com ênfase na clareza das informações e na facilidade de navegação.
