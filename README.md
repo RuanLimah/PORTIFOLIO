@@ -85,7 +85,7 @@ Para rodar o projeto localmente, siga as instruções abaixo:
 
 
 ## 🌐 **Demonstração**  
-Você pode acessar a versão online do portfólio [aqui]([http://example.com](https://portfolio-ruan-lima.vercel.app/)).
+Você pode acessar a versão online do portfólio [aqui](http://example.com](https://portfolio-ruan-lima.vercel.app/).
 
 
 ## 📫 **Contato**  
