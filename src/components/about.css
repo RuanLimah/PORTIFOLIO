@@ -1,0 +1,56 @@
+.about-container {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: left;
+    transition: max-height 0.5s ease; /* Animação suave ao expandir/recolher */
+    overflow: hidden;
+    max-height: 150px; /* Altura inicial da seção */
+  }
+  
+  .expandido {
+    max-height: 1000px; /* Altura máxima quando expandido */
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    margin-bottom: 1rem;
+    width: 70%;
+    text-align:justify;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .leia-mais-btn {
+    background-color: transparent;
+    color: #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-top: none;
+    border-bottom: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .leia-mais-btn:hover {
+    color: #fff;
+    scale: 1.06;
+    transition: 0.5s;
+  }
+  
+  .extra-content p {
+    margin-top: 1rem;
+  }
+  
+  .logo-itb {
+    float: right; /* Posiciona a imagem à direita */
+    max-width: 30rem; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-left: 20px; /* Espaçamento entre o texto e a imagem */
+    margin-top: -3rem;
+}
