@@ -1,4 +1,4 @@
-# PORTFÓLIO RUAN LIMA
+# PORTFOLIO RUAN LIMA
 
 Este repositório contém o código-fonte do portfólio de Ruan Lima, desenvolvido para exibir suas habilidades e projetos na área de desenvolvimento de software.
 
