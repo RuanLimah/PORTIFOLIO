@@ -137,6 +137,7 @@
     font-family: 'Montserrat', sans-serif; /* Adicione a fonte Montserrat */
     width: 100%;
     margin-top: 5rem;
+    border-radius: none;
   }
   
   .double-arrow {
