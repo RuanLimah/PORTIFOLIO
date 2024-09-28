@@ -176,4 +176,15 @@
     margin-bottom: 5rem;
   }
   
+  /* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .contact-form input, 
+  .contact-form textarea {
+    width: 20rem; /* Inputs se ajustam a 90% da largura da tela */
+  }
+
+  .contact-form .form-group {
+    width: 20rem; /* O grupo do formulário também se ajusta */
+  }
+}
   

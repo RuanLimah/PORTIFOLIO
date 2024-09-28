@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './about.css';
 import itb from '../assets/Logo ITB.png';
+import itbm from '../assets/ITBM.png';
 
 function About() {
   const [expandido, setExpandido] = useState(false);
@@ -12,6 +13,7 @@ function About() {
   return (
     <div id='sobre-mim' className={`about-container ${expandido ? 'expandido' : 'recolhido'}`}> 
     <img src={itb} alt="Logo ITB" className="logo-itb" />
+    <img src={itbm} alt="Logo ITB" className="logo-itbm" />
       <div className="about-content">
         <h2>Sobre mim</h2>
           <p>
@@ -33,7 +35,7 @@ function About() {
             </p>
             <p>
               Entusiasmado para transformar ideias em realidade, estou comprometido em agregar valor a cada projeto em que participo, 
-              unindo minha experiência técnica e minha paixão por tecnologia para impactar positivamente o mundo ao meu redor..
+              unindo minha experiência técnica e minha paixão por tecnologia para impactar positivamente o mundo ao meu redor.
             </p>
           </div>
         )}

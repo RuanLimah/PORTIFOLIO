@@ -88,3 +88,19 @@
     scale: 1.2;
   }
 
+  
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects-section {
+    height: 160rem; /* Ocupa a altura total da tela */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    background-color: black; /* Cor de fundo */
+}
+}
