@@ -30,7 +30,7 @@ function Home() {
         setTexto(prev => prev.slice(0, -1));
         setIndice(indice - 1);
       } else {
-        setTimeout(() => {
+        setTimeout(() => {  
           setApagar(!apagar);
         }, 1000);
       }
@@ -60,16 +60,16 @@ function Home() {
           </div>
         </div>
         <div className="home-icons-mobile">
-            <a href="mailto:ruanlimah@hotmail.com" target="_blank" rel="noopener noreferrer">
-              <img src={emailw} alt="Email" className="icon1" />
-            </a>
-            <a href="https://github.com/RuanLimah" target="_blank" rel="noopener noreferrer">
-              <img src={githubw} alt="GitHub" className="icon1" />
-            </a>
-            <a href="https://www.linkedin.com/in/ruanlimah" target="_blank" rel="noopener noreferrer">
-              <img src={linkedinw} alt="LinkedIn" className="icon1" />
-            </a>
-          </div>
+          <a href="mailto:ruanlimah@hotmail.com" target="_blank" rel="noopener noreferrer">
+            <img src={emailw} alt="Email" className="icon1" />
+          </a>
+          <a href="https://github.com/RuanLimah" target="_blank" rel="noopener noreferrer">
+            <img src={githubw} alt="GitHub" className="icon1" />
+          </a>
+          <a href="https://www.linkedin.com/in/ruanlimah" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinw} alt="LinkedIn" className="icon1" />
+          </a>
+        </div>
       </div>
       <div className="home-right">
         <nav className="home-nav">
@@ -83,20 +83,26 @@ function Home() {
           {/* Menu de navegação (mostrado/oculto com base no estado menuOpen) */}
           <ul className={`home-list ${menuOpen ? 'active' : ''}`}>
             <li className="home-item">
-              <a href="#sobre-mim">Sobre Mim</a>
+              <a href="#sobre-mim" onClick={() => setMenuOpen(false)}>Sobre Mim</a>
             </li>
             <li className="home-item">
-              <a href="https://drive.google.com/file/d/13r-h-Zmc8F8lro80SADVVA7iTQqcL_ke/view?usp=sharing"
-                 target="_blank" rel="noopener noreferrer">Currículo</a>
+              <a 
+                href="https://drive.google.com/file/d/13r-h-Zmc8F8lro80SADVVA7iTQqcL_ke/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenuOpen(false)}
+              >
+                Currículo
+              </a>
             </li>
             <li className="home-item">
-              <a href="#section-skills">Skills</a>
+              <a href="#section-skills" onClick={() => setMenuOpen(false)}>Skills</a>
             </li>
             <li className="home-item">
-              <a href="#section-portfolio">Portfólio</a>
+              <a href="#section-portfolio" onClick={() => setMenuOpen(false)}>Portfólio</a>
             </li>
             <li className="home-item contact">
-              <a href="#contate-me">Contate-me</a>
+              <a href="#contate-me" onClick={() => setMenuOpen(false)}>Contate-me</a>
             </li>
           </ul>
         </nav>

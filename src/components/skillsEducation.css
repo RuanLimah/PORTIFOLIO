@@ -299,8 +299,15 @@
 
   .service-title {
     font-size: 20px; /* Ajusta o tamanho da fonte para mobile */
-    top: 10%; /* Centraliza o título em relação ao ícone */
+    top: 20%; /* Centraliza o título em relação ao ícone */
   }
+
+  .service-title.manuntecao {
+    font-size: 20px; /* Ajusta o tamanho da fonte para mobile */
+    top: 25%; /* Centraliza o título em relação ao ícone */
+    margin-bottom: 1rem;
+  }
+
 
   .service-description {
     font-size: 14px; /* Ajusta o tamanho da descrição para mobile */

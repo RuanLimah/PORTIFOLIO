@@ -10,4 +10,68 @@ body {
     text-decoration: none;
     color: inherit;
   }
-  
+
+  @media (max-width: 768px) {
+    /* customizações específicas para mobile */
+    /* Reset básico */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Remove a margem padrão do body */
+  body {
+    overflow-x: hidden; /* Ocultar rolagem horizontal */
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Garante que o conteúdo ocupe 100% da largura da tela */
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Garante que os links e botões tenham a mesma aparência em todos os navegadores */
+  button, a {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  /* Remove espaçamentos padrão de listas */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Garante que as imagens nunca ultrapassem a largura da tela */
+
+
+  /* Garante que as tabelas e formulários se comportem corretamente */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  input, textarea {
+    border: none;
+    outline: none;
+  }
+
+  /* Define um estilo básico para tipografia */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+   
+  }
+
+}
+    
+    

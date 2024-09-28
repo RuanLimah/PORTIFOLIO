@@ -176,6 +176,7 @@
 .minha-foto1 {
   display: none;
 }
+
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
   .home-container {
@@ -280,17 +281,19 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9); /* Fundo semi-transparente */
     position: fixed; /* Fazer o menu ocupar a tela inteira */
-    top: 0;
+    top:0;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 2rem;
     z-index: 999;
+    margin-top: -14rem !important;
   }
 
   .home-list.active {
     display: flex; /* Exibir o menu quando ativo */
   }
+
 
   .home-item a {
     font-size: 24px; /* Aumentar o tamanho da fonte */
@@ -302,6 +305,6 @@
     font-weight: bold;
     padding: 10px 20px;
     border: 2px solid #fff;
-    border-radius: 25px;
   }
+
 }
