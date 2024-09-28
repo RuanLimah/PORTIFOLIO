@@ -238,7 +238,7 @@
     bottom: 1%; /* Ajusta a posição vertical */
     right: 1%; /* Ajusta a posição horizontal */
     color: white; /* Altera a cor do texto */
-    z-index: 10; /* Garante que fique acima da foto */
+    z-index: 2; /* Garante que fique acima da foto */
     text-align: left; /* Alinha o texto à esquerda */
     width: 90%;
   }

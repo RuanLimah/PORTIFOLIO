@@ -72,7 +72,7 @@
     font-size: 25px;
     margin-bottom: 0.5rem;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     margin-top: -20rem;
   }
 
@@ -81,7 +81,7 @@
     font-size: 16px; 
     line-height: 1.4; 
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
 
   .logo-itbm {
@@ -90,14 +90,14 @@
     display: block;
     margin: 1rem auto;
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
 
   .leia-mais-btn {
     font-size: 10px; 
     padding: 0.3rem 0.8rem;
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
 
   .extra-content p {
