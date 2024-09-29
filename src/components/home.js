@@ -83,7 +83,11 @@ function Home() {
           {/* Menu de navegação (mostrado/oculto com base no estado menuOpen) */}
           <ul className={`home-list ${menuOpen ? 'active' : ''}`}>
             <li className="home-item">
-              <a href="#sobre-mim" onClick={() => setMenuOpen(false)}>Sobre Mim</a>
+              <a href="#sobre-mim" onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#sobre-mim').scrollIntoView({ behavior: 'smooth' });
+                setMenuOpen(false); 
+              }}>Sobre Mim</a>
             </li>
             <li className="home-item">
               <a 
@@ -96,13 +100,25 @@ function Home() {
               </a>
             </li>
             <li className="home-item">
-              <a href="#section-skills" onClick={() => setMenuOpen(false)}>Skills</a>
+              <a href="#section-skills" onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#section-skills').scrollIntoView({ behavior: 'smooth' });
+                setMenuOpen(false); 
+              }}>Skills</a>
             </li>
             <li className="home-item">
-              <a href="#section-portfolio" onClick={() => setMenuOpen(false)}>Portfólio</a>
+              <a href="#section-portfolio" onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#section-portfolio').scrollIntoView({ behavior: 'smooth' });
+                setMenuOpen(false); 
+              }}>Portfólio</a>
             </li>
             <li className="home-item contact">
-              <a href="#contate-me" onClick={() => setMenuOpen(false)}>Contate-me</a>
+              <a href="#contate-me" onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#contate-me').scrollIntoView({ behavior: 'smooth' });
+                setMenuOpen(false); 
+              }}>Contate-me</a>
             </li>
           </ul>
         </nav>
