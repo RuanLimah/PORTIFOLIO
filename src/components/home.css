@@ -97,7 +97,7 @@
 
 .rectangle {
   width: 48rem;
-  height: 40rem;
+  height: 42.5rem;
   object-fit: cover;
   margin: 0;
   padding: 0;
@@ -115,7 +115,7 @@
 .home-list {
   display: flex;
   list-style: none;
-  gap: 4rem;
+  gap: 3rem;
   margin: 0;
   padding: 5px;
 }
