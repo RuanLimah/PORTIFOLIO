@@ -91,7 +91,7 @@ function Home() {
             </li>
             <li className="home-item">
               <a 
-                href="https://drive.google.com/file/d/1KPeMVKDoqVgR8ZIbft9woQGPRTVCfAaI/view?usp=sharing"
+                href="https://drive.google.com/file/d/14FUJqhxY1hpGpjIqhdCDCGEFNSxc1YsB/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}
